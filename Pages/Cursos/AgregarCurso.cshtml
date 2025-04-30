@@ -1,0 +1,53 @@
+﻿@page 
+@model Cursos.AgregarCursoModel
+@{
+    ViewData["Title"] = "Agregar Curso";
+}
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/Index">Principal</a></li>
+            <li class="breadcrumb-item"><a href="/Cursos/Cursos">Cursos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Agregar un Curso</li>
+        </ol>
+    </nav>
+    <h1 class="display-4 mb-4">Agregar un Curso <strong>@Model.Curso.nombre</strong></h1>
+    <form method="post" id="formaAgregar">
+        @{ await Html.RenderPartialAsync("CursoPartial", 
+                    new Cursos.CursoPartialModel() {Curso=Model.Curso, Profesores=Model.Profesores});} 
+        <div>
+            <button type="button" class="btn btn-secondary" onclick="history.back();">Regresar</button>
+            <button type="submit" class="btn btn-primary">Guardar Información</button>
+        </div>            
+        
+    </form>
+</div>
+
+@if(Model.CursoGuardadoExitoso) {
+    <div class="modal fade modal-lg" id="guardadoExitosoModal" tabindex="-1" aria-labelledby="guardadoExitosoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guardado Exitoso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>El Curso <strong>@Model.Curso.nombre</strong> ha sido guardado de manera satisfactoria.</h5>
+                </div>
+                <div class="modal-footer">                    
+                    <button type="submit" class="btn btn-primary" onclick="document.location = '/Cursos/Cursos';">Guardar Cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+}
+
+@section Scripts {
+<script>
+        $(document).ready(function () {
+            $('#guardadoExitosoModal').modal('show');
+        });
+    </script>
+}
