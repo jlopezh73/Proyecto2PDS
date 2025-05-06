@@ -10,7 +10,6 @@ public class CursosModel : PageModel
 {
     private ILogger<CursosModel> _logger;
     private readonly CursosService _cursosService;
-
     public CursoDTO Curso { get; set; }    
     public List<CursoDTO> Cursos { get; private set; }    
 
@@ -31,7 +30,7 @@ public class CursosModel : PageModel
     public async Task OnGet()
     {
         Cursos = await _cursosService.ObtenerTodosLosCursosAsync();
-        
+        _logger.LogInformation($"Cursos obtenidos: {Cursos.Count}");   
     }
 
     public async Task OnPost()

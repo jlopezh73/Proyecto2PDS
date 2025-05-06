@@ -24,18 +24,18 @@
                 <th>Opciones</th>
             </tr>
         </thead>    
-        <tbody>                                    
+        <tbody>             
+            @if (Model.Cursos != null ) { 
                 @foreach (var curso in @Model.Cursos)
                 {
                     <tr>                            
                         <td><a href="/Cursos/EditarCurso/@curso.id">@curso.nombre</a></td>
                         <td>@curso.descripcion</td>
                         <td>@curso.duracion</td>
-                        <td class="text-end">@curso.precio?.ToString("c2")</td>
+                        <td class="text-end">@curso.precio</td>
                         <td>@curso.profesor</td>
                         <td>
-                            
-                            
+                                                    
                                 <button class="btn btn-light btn-sm" onclick="asignarCursoImagen(@curso.id);">
                                     <i class="fas fa-image"></i> Asignar Imagen
                                 </button>                                
@@ -47,7 +47,8 @@
                         </td>
                     </tr>
                     
-                }                
+                }
+            }                
         </tbody>
     </table>
     <a  class="btn btn-primary" href="/Cursos/AgregarCurso"><i class="fas fa-folder-plus"></i> &nbsp;Agregar Curso</a>

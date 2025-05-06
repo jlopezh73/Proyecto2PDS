@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto2PDS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+486f03a3f3ef46c248da4a3362ca11ab40e02f2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto2PDS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto2PDS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

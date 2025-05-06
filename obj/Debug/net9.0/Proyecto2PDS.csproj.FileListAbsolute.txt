@@ -210,3 +210,4 @@
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/compressed/qzj83btcm9-1uhnqbwgor.gz
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/compressed/miya4igvo5-1uhnqbwgor.gz
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/Proyecto2PDS.sourcelink.json
