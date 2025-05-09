@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.jpg",
+      "PackagePath": "staticwebassets/images/uv.jpg"
+    },
+    {
+      "Id": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.png",
+      "PackagePath": "staticwebassets/images/uv.png"
+    },
+    {
       "Id": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

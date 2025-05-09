@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UblhHOs2A/gftDVwRSDVUtWxceF5+JDxHX2jSZp1UTM=",
+  "Hash": "jTr32c2c9ktDM72J3GlW7PfIH9X6GB293jORp79IzO4=",
   "Source": "Proyecto2PDS",
   "BasePath": "_content/Proyecto2PDS",
   "Mode": "Default",
@@ -1443,6 +1443,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/logo.png",
+      "SourceId": "Proyecto2PDS",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/",
+      "BasePath": "_content/Proyecto2PDS",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1luwbormht",
+      "Integrity": "1d1l9Wd+TFo+nZtVSbLEfpJqqcwSj7Dlnffi6tQwxmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.jpg",
+      "SourceId": "Proyecto2PDS",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/",
+      "BasePath": "_content/Proyecto2PDS",
+      "RelativePath": "images/uv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w8pxl04xfe",
+      "Integrity": "8EzEdn8rJ0jJ1NEN3oUtqMZMD9iXvbmW0MG+Z57hY48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/uv.jpg"
+    },
+    {
+      "Identity": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.png",
+      "SourceId": "Proyecto2PDS",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/",
+      "BasePath": "_content/Proyecto2PDS",
+      "RelativePath": "images/uv#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "50f8kz67jn",
+      "Integrity": "9R044Fi0tFs0yTZxwEQHSEYIYMeDOTYmOcsCnjIm4ys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/uv.png"
     },
     {
       "Identity": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/js/site.js",
@@ -3320,6 +3383,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.1luwbormht.png",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1d1l9Wd+TFo+nZtVSbLEfpJqqcwSj7Dlnffi6tQwxmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 06:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1luwbormht"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1d1l9Wd+TFo+nZtVSbLEfpJqqcwSj7Dlnffi6tQwxmE="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1d1l9Wd+TFo+nZtVSbLEfpJqqcwSj7Dlnffi6tQwxmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 06:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1d1l9Wd+TFo+nZtVSbLEfpJqqcwSj7Dlnffi6tQwxmE="
+        }
+      ]
+    },
+    {
+      "Route": "images/uv.50f8kz67jn.png",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9R044Fi0tFs0yTZxwEQHSEYIYMeDOTYmOcsCnjIm4ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 05:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "50f8kz67jn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/uv.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9R044Fi0tFs0yTZxwEQHSEYIYMeDOTYmOcsCnjIm4ys="
+        }
+      ]
+    },
+    {
+      "Route": "images/uv.jpg",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8EzEdn8rJ0jJ1NEN3oUtqMZMD9iXvbmW0MG+Z57hY48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 05:57:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8EzEdn8rJ0jJ1NEN3oUtqMZMD9iXvbmW0MG+Z57hY48="
+        }
+      ]
+    },
+    {
+      "Route": "images/uv.png",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9R044Fi0tFs0yTZxwEQHSEYIYMeDOTYmOcsCnjIm4ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 05:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9R044Fi0tFs0yTZxwEQHSEYIYMeDOTYmOcsCnjIm4ys="
+        }
+      ]
+    },
+    {
+      "Route": "images/uv.w8pxl04xfe.jpg",
+      "AssetFile": "/Users/jlopezh73/Proyectos2025/Proyecto2PDS/wwwroot/images/uv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8EzEdn8rJ0jJ1NEN3oUtqMZMD9iXvbmW0MG+Z57hY48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Mar 2024 05:57:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8pxl04xfe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/uv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8EzEdn8rJ0jJ1NEN3oUtqMZMD9iXvbmW0MG+Z57hY48="
         }
       ]
     },

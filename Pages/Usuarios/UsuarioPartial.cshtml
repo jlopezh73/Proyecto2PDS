@@ -1,0 +1,48 @@
+@model Proyecto2PDS.Pages.Usuarios.UsuarioPartialModel
+@{
+    var Usuario = Model.Usuario;    
+}
+<div class="">
+    <input type="hidden" asp-for="Usuario.ID" id="id" />
+    <div class="row">
+        <div class="col-4 mb-3">        
+            <label asp-for="Usuario.Paterno"></label>
+            <input type="text" class="form-control" id="nombre" asp-for="Usuario.Paterno" >
+            <span class="text-danger" asp-validation-for="Usuario.Paterno"></span>
+        </div>    
+        <div class="col-4 mb-3">        
+            <label asp-for="Usuario.Materno"></label>
+            <input type="text" class="form-control" id="nombre" asp-for="Usuario.Materno" >
+            <span class="text-danger" asp-validation-for="Usuario.Materno"></span>
+        </div>    
+        <div class="col-4 mb-3">        
+            <label asp-for="Usuario.Nombre"></label>
+            <input type="text" class="form-control" id="nombre" asp-for="Usuario.Nombre" >
+            <span class="text-danger" asp-validation-for="Usuario.Nombre"></span>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-4 mb-3">                
+            <label asp-for="Usuario.Puesto"></label>
+            <select asp-for="Usuario.Puesto" class="form-select">
+                <option value="">Seleccione un Puesto</option>                
+                <option value="Administrador General" selected>Administrador</option>                        
+                <option value="Administrador de Cursos" selected>Administrador de Cursos</option>                        
+                <option value="Administrador de Profesores" selected>Administrador de Profesores</option>                        
+                <option value="Administrador de Pagos" selected>Administrador de Pagos</option>                        
+            </select>             
+            <span class="text-danger" asp-validation-for="Usuario.Puesto"></span>
+        </div>    
+        <div class="col-4 mb-3">        
+            <label asp-for="Usuario.CorreoElectronico"></label>
+            <input type="text" class="form-control" id="nombre" asp-for="Usuario.CorreoElectronico" >
+            <span class="text-danger" asp-validation-for="Usuario.CorreoElectronico"></span>
+        </div>            
+        <div class="col-4 mb-3">        
+            <label asp-for="Usuario.Password"></label>
+            <input type="password" class="form-control" id="nombre" asp-for="Usuario.Password" >
+            <span class="text-danger" asp-validation-for="Usuario.Password"></span>
+        </div>            
+    </div>
+        
+</div>

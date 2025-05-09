@@ -211,3 +211,8 @@
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/compressed/qzj83btcm9-1uhnqbwgor.gz
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/compressed/miya4igvo5-1uhnqbwgor.gz
 /Users/jlopezh73/Proyectos2025/Proyecto2PDS/obj/Debug/net9.0/Proyecto2PDS.sourcelink.json
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/jlopezh73/Proyectos2025/Proyecto2PDS/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

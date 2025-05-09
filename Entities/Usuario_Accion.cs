@@ -16,4 +16,6 @@ public partial class Usuario_Accion
     public int? IDUsuarioSesion { get; set; }
 
     public virtual Usuario? IDUsuarioNavigation { get; set; }
+
+    public virtual Usuario_Sesion? IDUsuarioSesionNavigation { get; set; }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Proyecto2PDS.Entities;
 
-public partial class usuario_sesion
+public partial class Usuario_Sesion
 {
     public int ID { get; set; }
 
@@ -18,4 +18,6 @@ public partial class usuario_sesion
     public string? Token { get; set; }
 
     public virtual Usuario IDUsuarioNavigation { get; set; } = null!;
+
+    public virtual ICollection<Usuario_Accion> Usuario_Accions { get; set; } = new List<Usuario_Accion>();
 }

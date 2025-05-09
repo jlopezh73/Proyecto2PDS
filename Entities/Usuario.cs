@@ -21,7 +21,7 @@ public partial class Usuario
 
     public ulong? Activo { get; set; }
 
-    public virtual ICollection<Usuario_Accion> Usuario_Accion { get; set; } = new List<Usuario_Accion>();
+    public virtual ICollection<Usuario_Accion> Usuario_Accions { get; set; } = new List<Usuario_Accion>();
 
-    public virtual ICollection<usuario_sesion> usuario_sesion { get; set; } = new List<usuario_sesion>();
+    public virtual ICollection<Usuario_Sesion> Usuario_Sesions { get; set; } = new List<Usuario_Sesion>();
 }

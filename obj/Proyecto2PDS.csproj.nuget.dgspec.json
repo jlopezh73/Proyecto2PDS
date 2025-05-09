@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.9.0, )"
+            },
             "Mysql.Data": {
               "target": "Package",
               "version": "[9.2.0, )"
@@ -67,6 +71,10 @@
             "Mysql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.9.0, )"
             }
           },
           "imports": [
